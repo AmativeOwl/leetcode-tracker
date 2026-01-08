@@ -1,0 +1,23 @@
+.entry-header {
+    display: flex;
+    justify-content: center;
+}
+
+.entry-header input {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    width: 90%;
+    height: 10vh;
+    border: #E8E9EB;
+    border-radius: 10px;
+    background-color: #E8E9EB;
+}
+
+.entry-header input:focus {
+    outline: none;
+}
+
+.entry-header input:hover {
+    background-color: #D3D3D3;
+}

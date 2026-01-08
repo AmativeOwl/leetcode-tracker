@@ -1,0 +1,16 @@
+.entry-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.entry-field {
+    position: fixed;
+    z-index: 1; 
+    left: 50%; 
+    top: 50%; 
+    width: 90%;
+    height: 90%;
+    overflow: auto;
+    background-color: white;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,21 @@
+.add-entry-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    color: grey;
+}
+
+.add-entry-field {
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    height: 10vh;
+    width: 90%; 
+    border-top: 1px solid #E8E9EB; 
+}
+
+.add-entry-field p {
+    align-self: center;
+}

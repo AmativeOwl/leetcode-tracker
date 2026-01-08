@@ -1,0 +1,18 @@
+[
+    {
+        "id": "lastSolvedAt",
+        "title": "Last Solved At"
+    },
+    {
+        "id": "inactiveHours",
+        "title": "Inactive Hours"
+    }, 
+    {
+        "id": "dailyStreak",
+        "title": "Daily Streak"
+    }, 
+    {
+        "id": "lastRevised",
+        "title": "Last Revised"
+    }
+]

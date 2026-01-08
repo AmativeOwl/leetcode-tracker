@@ -1,0 +1,32 @@
+.search-bar-top {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    height: 10vh;
+}
+
+.search-bar {
+    margin: 10px 0 10px 20px;
+    background-color: #E8E9EB;
+    border-radius: 10px;
+}
+
+.search-bar input {
+    border-radius: 10px;
+    border: #E8E9EB;
+    background-color: #E8E9EB;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-icon {
+    padding: 10px;
+}
+
+.search-container {
+    display: flex;
+}

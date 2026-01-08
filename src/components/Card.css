@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h1, .card-content p {
+    text-align: center;
+}
+
+.card-content h1 {
+    font-size: 0.8rem;
+}
+
+.card-content p {
+    font-size: 1rem;
+}
