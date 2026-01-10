@@ -1,0 +1,16 @@
+.step-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.step-field {
+    font-family: Helvetica, sans-serif;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 15px;
+    border: 1px solid #E8E9EB;
+    width: 90%;
+}
