@@ -14,3 +14,10 @@
     background-color: white;
     transform: translate(-50%, -50%);
 }
+
+.steps-workspace {
+    border: 1px solid black;
+    height: 50vh; 
+    overflow-y: auto;
+    margin-top: 10px;
+}

@@ -10,7 +10,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 15px;
     border: 1px solid #E8E9EB;
     width: 90%;
+    height: 5vh;
+}
+
+.step-field textarea {
+    field-sizing: content;
+}
+
+.step-field:focus {
+    outline: none;
 }

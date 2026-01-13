@@ -1,10 +1,11 @@
 import "./Step.css"
+import { useState } from "react"
 
 export default function Step() {
     return (
         <div className="step-container">
-            <input className="step-field">
-            </input>
+            <textarea className="step-field">
+            </textarea>
         </div>
     )
 }

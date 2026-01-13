@@ -1,0 +1,22 @@
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.submit-button button {
+    font-family: Helvetica, sans-serif;
+    height: 5vh;
+    width: 10%;
+    border: none;
+}
+
+.submit-button button:hover {
+    background-color: #D3D3D3;
+}
