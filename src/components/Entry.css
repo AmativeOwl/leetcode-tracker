@@ -16,7 +16,6 @@
 }
 
 .steps-workspace {
-    border: 1px solid black;
     height: 50vh; 
     overflow-y: auto;
     margin-top: 10px;
