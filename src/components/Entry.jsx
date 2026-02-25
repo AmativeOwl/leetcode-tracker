@@ -12,7 +12,13 @@ export default function Entry(props) {
     const [title, setTitle] = useState("")
 
     function addStep() {
-        setSteps(prev => [...prev, {}])
+        setSteps(prev => [...prev, { stepDescription: "" }])
+    }
+
+    function updateStep(index, value) {
+        setSteps(prev => prev.map((step, i) => 
+            i === index ? { stepDescription: value } : step
+        ))
     }
     
     async function submitEntry() {
@@ -43,7 +49,12 @@ export default function Entry(props) {
                 <EntryTop exitEntry={props.onClose}/>
                 <EntryHeader title={title} setTitle={setTitle}/>
                 <div className="steps-workspace">
-                    {steps.map((step, index) => <Step key={index} />)}
+                    {steps.map((step, index) => 
+                        <Step key={index} 
+                              value={step.stepDescription}
+                              onChange={(val) => updateStep(index, val)}
+                        />)
+                    }
                 </div>
                 <AddStep addStepText={addStepText} onAdd={addStep}/>
                 <SubmitButton onSubmit={submitEntry}/>
